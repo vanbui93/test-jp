@@ -1,0 +1,105 @@
+@charset "UTF-8";
+#content-wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+#content-wrap .btn-regist {
+  width: 518px;
+  margin: 15px auto 80px;
+}
+#content-wrap .btn-regist .btn {
+  width: 518px;
+  border-radius: 10px;
+  background: #d94e09;
+  padding: 20px 0;
+  position: relative;
+}
+#content-wrap .btn-regist .btn span {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 110px;
+}
+#content-wrap .btn-regist .btn::before {
+  position: absolute;
+  left: 58px;
+  top: 5px;
+  content: "";
+  width: 72px;
+  height: 72px;
+  background: url("../images/icon-free.png") no-repeat left;
+}
+#content-wrap .btn-regist .btn::after {
+  position: absolute;
+  top: 30px;
+  content: "";
+  width: 10px;
+  height: 15px;
+  background: url("../images/arr.png") no-repeat right;
+}
+#content-wrap .content-inner {
+  margin-bottom: 31px;
+}
+#content-wrap .content-inner h2 {
+  font-family: "A-OTF 見出ゴMB31 Pro MB31", "A-OTF Midashi Go MB31 Pro MB31";
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid #444444;
+  padding-bottom: 6px;
+}
+#content-wrap .content-inner .text-orange {
+  color: #d94e09;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 29px;
+}
+#content-wrap .content-inner .text-orange span {
+  color: #888888;
+  padding-right: 7px;
+}
+#content-wrap .content-inner .content-left {
+  width: 556px;
+}
+#content-wrap .content-inner .content-left .txt01 {
+  line-height: 24px;
+}
+#content-wrap .content-inner .content-left .box {
+  padding: 15px;
+  background: url("../images/box-bg.jpg") no-repeat center;
+}
+#content-wrap .content-inner .content-left .box p.icon {
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin-left: 5px;
+  color: #333333;
+}
+#content-wrap .content-inner .content-left .box p.icon::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url("../images//icon.png") no-repeat left;
+}
+#content-wrap .content-inner .content-left .box ul li {
+  color: #000000;
+  font-size: 16px;
+  line-height: 30px;
+}
+#content-wrap .content-inner .img01 {
+  width: 381px;
+}
+#content-wrap .txt02 {
+  color: #000000;
+  padding: 0 20px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,76 @@
+#content-wrap {
+    width: 980px;
+    margin: 0 auto;
+    .btn-regist {
+        width: 518px;
+        .btn {
+            width: 518px;
+        }
+    }
+    .content-inner {
+        margin-bottom: 31px;
+        h2{
+            font-family: 'A-OTF 見出ゴMB31 Pro MB31','A-OTF Midashi Go MB31 Pro MB31';
+            font-size: 30px;
+            font-weight: bold;
+            border-bottom: 1px solid #444444;
+            padding-bottom: 6px;
+        }
+        .text-orange {
+            color: #d94e09;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 29px;
+            span{
+                color: #888888;
+                padding-right: 7px;
+            }
+        }
+        .content-left {
+            width: 556px;
+            .txt01 {
+                line-height: 24px;
+            }
+            .box {
+                padding: 15px;
+                background: url('../images/box-bg.jpg') no-repeat center;
+                p.icon {
+                    font-size: 14px;
+                    line-height: 24px;
+                    position: relative;
+                    padding-left: 20px;
+                    padding-bottom: 0;
+                    margin-left: 5px;
+                    color: #333333;
+                    &::before {
+                        position: absolute;
+                        top: 5px;
+                        left: 0;
+                        content: '';
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        background: url('../images//icon.png') no-repeat left;
+                    }
+                }
+                ul {
+                    li {
+                        color: #000000;
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+        .img01 {
+            width: 381px;
+        }     
+    }
+    .txt02 {
+        color: #000000;
+        padding: 0 20px;
+        border-bottom: 1px solid #dddddd;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+}
