@@ -5,37 +5,10 @@
 }
 #content-wrap .btn-regist {
   width: 518px;
-  margin: 15px auto 80px;
 }
 #content-wrap .btn-regist .btn {
   width: 518px;
-  border-radius: 10px;
-  background: #d94e09;
-  padding: 20px 0;
-  position: relative;
-}
-#content-wrap .btn-regist .btn span {
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 110px;
-}
-#content-wrap .btn-regist .btn::before {
-  position: absolute;
-  left: 58px;
-  top: 5px;
-  content: "";
-  width: 72px;
-  height: 72px;
-  background: url("../images/icon-free.png") no-repeat left;
-}
-#content-wrap .btn-regist .btn::after {
-  position: absolute;
-  top: 30px;
-  content: "";
-  width: 10px;
-  height: 15px;
-  background: url("../images/arr.png") no-repeat right;
+  padding: 0;
 }
 #content-wrap .content-inner {
   margin-bottom: 31px;
